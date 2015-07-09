@@ -1,3 +1,8 @@
+##
+# The following settings control what folders/files are ignored (or not ignored) by Git.
+##
+
+# mailchimp-for-wordpress exclude settings.
 .DS_Store
 .sass-cache/
 node_modules/
@@ -12,3 +17,12 @@ vendor/*
 vendor/composer/installers
 vendor/composer/installed.json
 library/.git
+
+# Exclude Eclipse IDE files.
+/.settings
+/.buildpath
+/.project
+
+# Exclude composer.phar and helper symlink for composer script.
+/composer
+/composer.phar
