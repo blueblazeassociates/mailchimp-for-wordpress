@@ -7,6 +7,7 @@
   "type": "wordpress-plugin",
   "replace": {
     "wpackagist-plugin/mailchimp-for-wordpress" : "2.3.6",
+    "ibericode/mailchimp-for-wordpress" : "2.3.6",
     "dannyvankooten/mailchimp-for-wordpress" : "2.3.6"
   },
   "authors": [
