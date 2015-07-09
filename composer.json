@@ -1,10 +1,14 @@
 {
-  "name": "dannyvankooten/mailchimp-for-wordpress",
+  "name": "blueblazeassociates/mailchimp-for-wordpress",
   "description": "MailChimp plugin for WordPress",
   "keywords": ["wordpress", "mailchimp"],
   "homepage": "https://mc4wp.com/",
   "license": "GPL-2.0+",
   "type": "wordpress-plugin",
+  "replace": {
+    "wpackagist-plugin/mailchimp-for-wordpress" : "2.3.6",
+    "dannyvankooten/mailchimp-for-wordpress" : "2.3.6"
+  },
   "authors": [
     {
       "name": "Danny van Kooten",
